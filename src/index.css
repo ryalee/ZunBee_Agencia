@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/Outfit-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/Outfit-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/Outfit-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/Outfit-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/Outfit-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-family: Outfit, sans-serif;
+
+  --color-main: #ffc300;
+  --color-light: #f4f7f0;
+  --color-dark: #4e4e4e;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.section-title {
+  @apply text-[25pt] font-semibold text-center
+}
+
+.section-subtitle {
+  @apply text-[22pt] font-medium text-center
+}
+
+.service-card {
+  @apply bg-[#ffebac] border-3 border-main rounded-[20px] w-[400px] p-[20px] flex flex-col
+}
