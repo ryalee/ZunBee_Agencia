@@ -1,9 +1,10 @@
 import hero from '../assets/images/hero.png'
+import HeaderBanner from '../components/HeaderBanner'
 
 function Hero() {
   return (
-    <section>
-      <p className='bg-[#ffebac] border-3 border-main rounded-full text-[15pt] text-center py-1 px-2 mt-[30px] font-semibold'>🏎️ Não fazemos sites. Criamos presença online com atitude e autenticidade.</p>
+    <section className='flex flex-col'>
+      <HeaderBanner/>
 
       <div className='flex flex-col gap-[20px] mt-[50px]'>
         <h1 className='font-semibold text-[30pt] text-center'>Ideias incríveis merecem espaço para brilhar.</h1>

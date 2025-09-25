@@ -19,8 +19,8 @@ export default defineConfig({
         semibold: 600,
         bold: 700,
         black: 900,
-      }
-    }
+      },
+    },
   },
   server: {
     host: true,

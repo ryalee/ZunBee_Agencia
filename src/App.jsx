@@ -1,6 +1,7 @@
 import logo from './assets/images/logo.png'
 import About from './sections/About'
 import Hero from './sections/Hero'
+import Portfolio from './sections/Portfolio'
 import Services from './sections/Services'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Hero/>
         <About/>
         <Services/>
+        <Portfolio/>
       </main>
 
       <footer className='flex flex-col shadow-[0px_-2px_4px_#00000025] w-[100%] p-[10px]'> {/* só pra nao esquecer: shadow-[x_y_blur_color(o final é a porcetagem de opacidade)] */}

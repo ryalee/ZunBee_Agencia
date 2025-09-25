@@ -58,5 +58,5 @@ body {
 }
 
 .service-card {
-  @apply bg-[#ffebac] border-3 border-main rounded-[20px] w-[400px] p-[20px] flex flex-col
+  @apply bg-[#ffebac] border-3 border-main rounded-[20px] w-[400px] p-[30px] flex flex-col
 }
