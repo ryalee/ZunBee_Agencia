@@ -3,7 +3,7 @@ import { services } from '../data/services.js';
 
 function Services() {
   return (
-    <section className='flex flex-col items-center'>
+    <section className='flex flex-col items-center px-[10px]'>
       <div>
         <h1 className='section-title'>O que podemos fazer por você?</h1>
         <h2 className='section-subtitle'>Nossos serviços</h2>

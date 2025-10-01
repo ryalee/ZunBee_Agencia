@@ -5,7 +5,7 @@ function Portfolio() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section>
+    <section className='px-[10px]'>
       <div>
         <h1 className='section-title'>O que já criamos até aqui?</h1>
         <h2 className='section-subtitle'>Projetos que falam por nós</h2>

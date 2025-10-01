@@ -41,6 +41,7 @@
   --color-main: #ffc300;
   --color-light: #f4f7f0;
   --color-dark: #4e4e4e;
+  --color-secondary: #ffefb4;
 }
 
 body {
@@ -54,7 +55,7 @@ body {
 }
 
 .section-subtitle {
-  @apply text-[22pt] font-medium text-center
+  @apply text-[20pt] text-center
 }
 
 .service-card {

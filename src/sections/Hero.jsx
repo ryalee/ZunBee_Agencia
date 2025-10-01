@@ -3,7 +3,7 @@ import HeaderBanner from '../components/HeaderBanner'
 
 function Hero() {
   return (
-    <section className='flex flex-col'>
+    <section className='flex flex-col px-[10px]'>
       <HeaderBanner/>
 
       <div className='flex flex-col gap-[20px] mt-[50px]'>

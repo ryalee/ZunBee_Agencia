@@ -1,8 +1,12 @@
 import logo from './assets/images/logo.png'
 import About from './sections/About'
+import CTA from './sections/CTA'
+import FAQ from './sections/FAQ'
+import Feedbacks from './sections/Feedbacks'
 import Hero from './sections/Hero'
 import Portfolio from './sections/Portfolio'
 import Services from './sections/Services'
+import Steps from './sections/Steps'
 
 function App() {
   return (
@@ -21,11 +25,15 @@ function App() {
         </button>
       </header>
 
-      <main className='flex flex-col px-[10px] gap-[150px]'>
+      <main className='flex flex-col gap-[150px]'>
         <Hero/>
         <About/>
         <Services/>
         <Portfolio/>
+        <Steps/>
+        <Feedbacks/>
+        <FAQ/>
+        <CTA/>
       </main>
 
       <footer className='flex flex-col shadow-[0px_-2px_4px_#00000025] w-[100%] p-[10px]'> {/* só pra nao esquecer: shadow-[x_y_blur_color(o final é a porcetagem de opacidade)] */}
@@ -33,28 +41,18 @@ function App() {
           <div className='flex items-center gap-1 mt-[20px]'>
             <img 
               src={logo} alt="logo"
-              className='w-[50px]'
+              className='w-[55px]'
             />
-            <p className='font-bold text-[20pt]'>Zun<span className='text-main'>Bee</span></p>
+            <p className='font-bold text-[22pt]'>Zun<span className='text-main'>Bee</span></p>
           </div>
 
-          <div className='flex flex-col gap-[20px] mt-[40px]'>
-            <div>
-              <h4 className='font-bold text-[15pt]'>Suporte</h4>
+          <div className='flex flex-col gap-1 mt-[40px]'>
+            <h4 className='font-bold text-[15pt]'>Suporte</h4>
 
-              <ul className='flex flex-col text-blue-800 underline'>
-                <a href="#">contato@zunbee.com.br</a>
-                <a href="#">WhatsApp</a>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className='font-bold text-[15pt]'>Legal</h4>
-
-              <ul>
-                <a href="#" className='text-blue-800 underline'>Política de Privacidade</a>
-              </ul>
-            </div>
+            <ul className='flex flex-col text-blue-800 underline'>
+              <a href="#">contato@zunbee.com.br</a>
+              <a href="#">WhatsApp</a>
+            </ul>
           </div>
         </section>
 
