@@ -6,6 +6,7 @@ import Feedbacks from './sections/Feedbacks'
 import Hero from './sections/Hero'
 import Portfolio from './sections/Portfolio'
 import Services from './sections/Services'
+import SloganBottom from './sections/SloganBottom'
 import Steps from './sections/Steps'
 
 function App() {
@@ -34,9 +35,10 @@ function App() {
         <Feedbacks/>
         <FAQ/>
         <CTA/>
+        <SloganBottom/>
       </main>
 
-      <footer className='flex flex-col shadow-[0px_-2px_4px_#00000025] w-[100%] p-[10px]'> {/* só pra nao esquecer: shadow-[x_y_blur_color(o final é a porcetagem de opacidade)] */}
+      <footer className='flex flex-col shadow-[0px_-2px_4px_#00000025] w-[100%] p-[10px] mt-[150px]'> {/* só pra nao esquecer: shadow-[x_y_blur_color(o final é a porcetagem de opacidade)] */}
         <section className='flex flex-col'>
           <div className='flex items-center gap-1 mt-[20px]'>
             <img 
