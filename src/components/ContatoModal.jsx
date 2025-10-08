@@ -106,7 +106,7 @@ function ContatoModal({ onClose }) {
               placeholder="Nome"
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              className='border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#ffc300] text-text-alt'
+              className='border rounded-lg px-4 py-2 text-text-alt focus:outline-none focus:ring-2 focus:ring-main focus:border-none'
               required
             />
             <input
@@ -115,7 +115,7 @@ function ContatoModal({ onClose }) {
               placeholder="Email"
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              className='border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#ffc300] text-text-alt'
+              className='border rounded-lg px-4 py-2 text-text-alt focus:outline-none focus:ring-2 focus:ring-main focus:border-none'
               required
             />
 
@@ -123,7 +123,7 @@ function ContatoModal({ onClose }) {
               name="serviceType"
               value={formData.serviceType}
               onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
-              className='border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#ffc300] text-text-alt'
+              className='border rounded-lg px-4 py-2 focus:none text-text-alt focus:outline-none focus:ring-2 focus:ring-main focus:border-none'
               required
             >
               <option value="">Tipo de projeto</option>
@@ -140,7 +140,7 @@ function ContatoModal({ onClose }) {
               value={formData.message}
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               required
-              className='border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#ffc300] text-text-alt'
+              className='border rounded-lg px-4 py-2 focus:none text-text-alt focus:outline-none focus:ring-2 focus:ring-main focus:border-none'
             />
 
             <button
