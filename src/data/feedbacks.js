@@ -23,7 +23,7 @@ export const feedbacks = [
   {
     id: 4,
     open: '/open.png',
-    comment: '"Eu precisava de um aplicativo para me ajudar a organizar minha rotina, planejar minha semana e que fosse possível fazer algumas anotações. Algo tipo um notion mas menos complexo e feito exclusivamente pensando no meu problema. Eles resolveram e agora com o "Cantinho da Dani" eu consigo ser muito mais produtiva e organizada."',
+    comment: '"Eu precisava de um aplicativo para me ajudar a organizar minha rotina, planejar minha semana e fazer algumas anotações. Algo feito exclusivamente pensando no meu problema. Eles resolveram e agora com o "Cantinho da Dani" eu consigo ser muito mais produtiva e organizada."',
     client: 'Daniella M. - Psicóloga e Escritora',
     close: '/close.png',
   }

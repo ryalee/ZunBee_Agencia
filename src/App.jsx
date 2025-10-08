@@ -7,7 +7,7 @@ import Hero from './sections/Hero'
 import Portfolio from './sections/Portfolio'
 import Services from './sections/Services'
 import SloganBottom from './sections/SloganBottom'
-import Steps from './sections/Steps'
+import Steps from './sections/Steps';
 
 function App() {
   return (
@@ -20,10 +20,6 @@ function App() {
           />
           <p className='font-bold text-[30pt]'>Zun<span className='text-main'>Bee</span></p>
         </div>
-
-        <button className='bg-main border-3 font-semibold py-2 px-6 rounded-[15px]'>
-          Contato
-        </button>
       </header>
 
       <main className='flex flex-col gap-[150px]'>

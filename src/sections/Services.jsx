@@ -1,5 +1,6 @@
 import React from 'react';
 import { services } from '../data/services.js';
+import BotaoContato from './../components/BotaoContato';
 
 function Services() {
   return (
@@ -9,7 +10,7 @@ function Services() {
         <h2 className='section-subtitle'>Nossos serviços</h2>
       </div>
 
-      <div className='flex flex-col gap-[50px] mt-[40px]'>
+      <div className='flex flex-col gap-[50px] mt-[40px] md:flex-row'>
         {
           services.map((service) => (
             <div 
@@ -24,7 +25,7 @@ function Services() {
               <h3 className='font-semibold text-[25pt]'>{service.title}</h3>
               <p className='font-medium text-[15pt]'>{service.description}</p>
 
-              <button className='bg-main border-3 border-dark py-1 rounded-[10px] mt-[20px] hover:cursor-pointer font-bold text-[15pt]'>Criar o Meu</button>
+              <BotaoContato label='Criar o Meu' className='self-center mt-[20px]'/>
             </div>
           ))
         }

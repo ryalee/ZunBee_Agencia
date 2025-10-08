@@ -1,5 +1,6 @@
 import React from 'react';
 import {questions} from '../data/questions';
+import BotaoContato from './../components/BotaoContato';
 
 function FAQ() {
   return (
@@ -9,7 +10,7 @@ function FAQ() {
         <p className='section-subtitle'>Dúvidas que recebemos frequentemente</p>
       </div>
 
-      <div className='flex flex-col gap-[30px] mt-[40px]'>
+      <div className='flex flex-col gap-[30px] mt-[40px] md:px-[30px]'>
         {
           questions.map((question) => (
             <div className='flex flex-col border-4 border-main p-[15px] gap-2 rounded-[20px]'>
@@ -20,9 +21,9 @@ function FAQ() {
         }
       </div>
 
-      <div className='mt-[20px]'>
-        <p className='text-[16pt]'>Tem alguma dúvida e não encontrou resposta aqui?</p>
-        <button className='bg-main border-3 border-dark rounded-[10px] hover:cursor-pointer font-bold w-[100%] text-[15pt] px-[30px] py-[10px]'>Entre em contato</button>
+      <div className='mt-[20px] md:px-[40px]'>
+        <p className='text-[16pt] md:text-[20pt]'>Tem alguma dúvida e não encontrou resposta aqui?</p>
+        <BotaoContato label='Entre em Contato'/>      
       </div>
     </section>
   )

@@ -1,12 +1,13 @@
 import React from 'react'
+import BotaoContato from './../components/BotaoContato';
 
 function CTA() {
   return (
-    <section className='p-0 w-[100%] h-[270px] bg-secondary'>
-      <div className='p-[10px] mt-[20px]'>
-        <h1 className='text-[25pt] font-semibold text-left'>Transforme suas ideias em realidade e seus problemas em inovação!</h1>
+    <section className='p-0 w-[100%] h-[270px] bg-secondary md:h-[400px] md:flex md:items-center'>
+      <div className='p-[10px] mt-[20px] md:px-[50px] md:flex md:items-center md:justify-center'>
+        <h1 className='text-[25pt] font-semibold text-left md:text-[50pt] md:w-[70%]'>Transforme suas ideias em realidade e seus problemas em inovação!</h1>
 
-        <button className='bg-main border-dark border-3 px-[30px] py-[15px] text-[15pt] font-bold rounded-[10px]'>Ir para o próximo nível</button>
+        <BotaoContato label='Ir para o próximo nível' className='w-[300px] py-[20px]'/>
       </div>
     </section>
   )

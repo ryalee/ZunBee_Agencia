@@ -7,7 +7,7 @@ export const questions = [
   {
     id: 2,
     question: 'Preciso ter todo o conteúdo pronto (texto, imagens, logo)?',
-    answer: 'Não obrigatoriamente. A primeira etapa da nossa relação é uma conversa por mensagem onde iremos falar a respeito da sua ideia e como seguiremos com o desenvolvimento. Ter o conteúdo pronto facilidade e acelera o processo, mas não é obrigatório e não precisa esquentar a cabeça com isso. Nós também daremos um jeito.'
+    answer: 'Não obrigatoriamente. A primeira etapa da nossa relação é uma conversa por mensagem onde iremos falar a respeito da sua ideia e como seguiremos com o desenvolvimento. Ter o conteúdo pronto facilita e acelera o processo, mas não é obrigatório e não precisa esquentar a cabeça com isso. Nós também daremos um jeito.'
   },
   {
     id: 3,

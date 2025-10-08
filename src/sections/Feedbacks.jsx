@@ -6,16 +6,16 @@ function Feedbacks() {
     <section className='px-[10px]'>
       <h1 className='section-title'>Depoimentos de Clientes Satisfeitos</h1>
 
-      <div className='flex flex-col gap-[50px] mt-[40px] px-[20px] md:flex-row'>
+      <div className='flex flex-col gap-[50px] mt-[40px] px-[20px] md:flex-row md:gap-[20px]'>
         {
           feedbacks.map((feedback) => (
-            <div className='flex flex-col gap-[20px] shadow-[0px_0px_10px_#4e4e4e40] px-[12px] py-[20px] rounded-[20px]'>
+            <div className='flex flex-col gap-[20px] shadow-[0px_0px_10px_#4e4e4e40] px-[12px] py-[20px] rounded-[20px] md:w-[40%]'>
               <img 
                 src={feedback.open}
-                className='w-[70px]'
+                className='w-[50px]'
               />
 
-              <p className='px-[30px] font-medium text-[15pt]'>
+              <p className='px-[10px] font-medium text-[15pt] md:text-[12pt]'>
                 {feedback.comment}
               </p>
 
@@ -24,7 +24,7 @@ function Feedbacks() {
 
                 <img 
                   src={feedback.close}
-                  className='w-[70px]'
+                  className='w-[50px]'
                 />
               </div>
             </div>

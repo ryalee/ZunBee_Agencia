@@ -42,6 +42,7 @@
   --color-light: #f4f7f0;
   --color-dark: #4e4e4e;
   --color-secondary: #ffefb4;
+  --color-text-alt: #838383;
 }
 
 body {
@@ -51,7 +52,7 @@ body {
 }
 
 .section-title {
-  @apply text-[25pt] font-semibold text-center
+  @apply text-[25pt] font-semibold text-center md:text-[30pt]
 }
 
 .section-subtitle {
@@ -59,5 +60,5 @@ body {
 }
 
 .service-card {
-  @apply bg-[#ffebac] border-3 border-main rounded-[20px] w-[400px] p-[30px] flex flex-col
+  @apply bg-[#ffebac] border-3 border-main rounded-[20px] w-[400px] p-[30px] flex flex-col md:justify-center
 }

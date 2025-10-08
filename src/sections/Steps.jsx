@@ -10,11 +10,11 @@ function Steps() {
       </div>
 
       {
-        process.map((process) => (
-          <div className='flex flex-col mt-[40px]'>
-            <img src={process.image} className='w-[80%] self-center'/>
+        process.map((process, index) => (
+          <div className={`flex flex-col md:items-center md:justify-around mt-[40px] md:px-[40px] ${index % 2 !== 0 ? 'md:flex-row' : "flex-row-reverse" }`}>
+            <img src={process.image} className='w-[80%] self-center md:w-[300px]'/>
 
-            <div className='px-[20px] my-[20px]'>
+            <div className='px-[20px] my-[20px] md:flex-col'>
               <div className='flex items-center px-[10px] gap-[10px]'>
                 <div className='flex bg-dark text-main font-bold text-[20pt] w-[50px] h-[50px] rounded-full justify-center items-center'>
                   {process.step}
