@@ -11,7 +11,7 @@ function Steps() {
 
       {
         process.map((process, index) => (
-          <div className={`flex flex-col md:items-center md:justify-around mt-[40px] md:px-[40px] ${index % 2 !== 0 ? 'md:flex-row' : "flex-row-reverse" }`}>
+          <div className={`flex flex-col md:items-center md:justify-around mt-[40px] md:px-[40px] ${index % 2 !== 0 ? 'md:flex-row' : "md:flex-row-reverse" }`}>
             <img src={process.image} className='w-[80%] self-center md:w-[300px]'/>
 
             <div className='px-[20px] my-[20px] md:flex-col'>

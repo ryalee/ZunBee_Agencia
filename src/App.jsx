@@ -48,8 +48,19 @@ function App() {
             <h4 className='font-bold text-[15pt]'>Suporte</h4>
 
             <ul className='flex flex-col text-blue-800 underline'>
-              <a href="mailto:contato@zunbee.com.br">contato@zunbee.com.br</a>
-              <a href='https://wa.me/5574999115799?text=Olá! Gostaria de saber mais sobre os seus serviços.'>WhatsApp</a>
+              <a 
+                href="mailto:contato@zunbee.com.br" 
+                target='_blank'
+              >
+                contato@zunbee.com.br
+              </a>
+
+              <a 
+                href='https://wa.me/5574999115799?text=Olá! Gostaria de saber mais sobre os seus serviços.' 
+                target='_blank'
+              >
+                WhatsApp
+              </a>
             </ul>
           </div>
         </section>
