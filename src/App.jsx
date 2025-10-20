@@ -8,8 +8,15 @@ import Portfolio from './sections/Portfolio'
 import Services from './sections/Services'
 import SloganBottom from './sections/SloganBottom'
 import Steps from './sections/Steps';
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-8H4SPSW7VP"); // substitui pelo seu ID do GA4
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   return (
     <>
       <header className='p-5 flex justify-between items-center'>
