@@ -13,7 +13,7 @@ import ReactGA from "react-ga4";
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize("G-8H4SPSW7VP"); // substitui pelo seu ID do GA4
+    ReactGA.initialize("G-R1N4B3NQH2"); // substitui pelo seu ID do GA4
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
 
