@@ -21,8 +21,7 @@ function Hero() {
 
             <div className='flex flex-col gap-10 self-center mt-[20px] md:flex-row'>
               <BotaoContato/>
-              <button className='w-[240px] h-[60px] border-3 border-main rounded-[15px] text-[16pt] font-semibold md:hover:bg-main hover:bg-main/90 transition cursor-pointer'>Nosso Portfólio</button>
-            </div>
+             </div>
           </div>
         </div>
       </div>
