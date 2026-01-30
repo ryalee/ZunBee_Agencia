@@ -25,7 +25,7 @@ function App() {
             src={logo} alt="logo"
             className='w-[70px]'
           />
-          <p className='font-bold text-[30pt]'>Zun<span className='text-main [text-shadow:_1px_1px_1px_#4e4e4e]'>Bee</span></p>
+          <p className='font-bold text-[30pt] [text-shadow:_1px_1px_1px_#4e4e4e]'>Zun<span className='text-main'>Bee</span></p>
         </div>
       </header>
 
